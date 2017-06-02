@@ -8,7 +8,6 @@ This is a Docker image to run nginx and [OpenSpeedTest](http://openspeedtest.com
 
 - Runs as non-root user
 - Small image size
-- Small number of layers
 - Can be used to measure LAN, VPN or internet speed
 - HTML5 (no Flash or Java)
 - No client to install, works directly from Web Browser
