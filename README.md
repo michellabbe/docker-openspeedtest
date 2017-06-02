@@ -4,7 +4,7 @@
 
 This is a Docker image to run nginx and [OpenSpeedTest](http://openspeedtest.com/) application for benchmarking network performance.
 
-[![OpenSpeedTest](http://www.speedtest.net/images/speedtestmini.png)](http://www.speedtest.net/fr/mini.php)
+[![OpenSpeedTest](https://github.com/michellabbe/docker-openspeedtest/blob/master/openspeedtest.png)](http://openspeedtest.com/)
 
 - Runs as non-root user
 - Small image size
