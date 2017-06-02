@@ -13,8 +13,9 @@ RUN apk add --no-cache nginx \
          # not sure why but during build wget downloads a 42 MB downloading file instead of a 155 MB file \
          # so Download test result suck at high speed (e.g. shows 40 Mbps instead of 500+ Mbps)           \
          # As a workaround, for now I downloaded the 155 MB file manually and COPY it instead             \
-    #&& wget http://openspeedtest.com/downloading -O /tmp/downloading \
-    #&& wget http://openspeedtest.com/load/upload -O /tmp/upload \
+         # EDIT: can't upload these files on github.
+    && wget http://openspeedtest.com/downloading -O /tmp/downloading \
+    && wget http://openspeedtest.com/load/upload -O /tmp/upload \
     && wget http://get.openspeedtest.com/images/favicon.png -O /tmp/favicon.png \
     
          # Make sure default website dir is empty before moving files \

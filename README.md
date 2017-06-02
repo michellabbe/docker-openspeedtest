@@ -1,4 +1,4 @@
-[![Docker Stars](https://img.shields.io/docker/stars/mlabbe/openspeedtest.svg)](https://hub.docker.com/r/mlabbe/speedtest-mini/) [![Docker Pulls](https://img.shields.io/docker/pulls/mlabbe/openspeedtest.svg)](https://hub.docker.com/r/mlabbe/openspeedtest/)
+[![Docker Stars](https://img.shields.io/docker/stars/mlabbe/openspeedtest.svg)](https://hub.docker.com/r/mlabbe/openspeedtest/) [![Docker Pulls](https://img.shields.io/docker/pulls/mlabbe/openspeedtest.svg)](https://hub.docker.com/r/mlabbe/openspeedtest/)
 
 # docker: OpenSpeedTest
 
