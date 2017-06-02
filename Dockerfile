@@ -3,7 +3,7 @@ FROM alpine:3.6
 
 MAINTAINER Michel Labbe
 
-COPY /files/www/* /var/www/localhost/htdocs/
+COPY /files/www/index.htm /var/www/localhost/htdocs/index.htm
 COPY /files/openspeedtest.conf /etc/nginx/conf.d
 
 RUN apk add --no-cache nginx \
