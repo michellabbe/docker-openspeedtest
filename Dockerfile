@@ -8,7 +8,7 @@ COPY /files/openspeedtest.conf /etc/nginx/conf.d/openspeedtest.conf
 RUN rm -rf /etc/nginx/conf.d/default.conf \
     && wget http://openspeedtest.com/downloading -O /tmp/downloading \
     && wget http://openspeedtest.com/load/upload -O /tmp/upload \
-    && wget http://get.openspeedtest.com/images/favicon.png -O /tmp/favicon.png \
+    && wget http://open.cachefly.net/images/favicon.png -O /tmp/favicon.png \
     
          # Make sure default website dir is empty before moving files \
     && mv /tmp/downloading /var/www/localhost/htdocs/ \
