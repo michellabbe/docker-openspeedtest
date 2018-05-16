@@ -23,8 +23,8 @@ RUN rm -rf /etc/nginx/conf.d/default.conf \
     && chown -R nginx /var/log/nginx/error.log \
     && touch /var/log/nginx/access.log \
     && chown -R nginx /var/log/nginx/access.log \
-    && chown -R nginx /var/run \
-    && chmod 640 /var/run \
+    && touch /var/run/nginx.pid \
+    && chown -R nginx /var/run/nginx.pid \
     && sed -i "s/user  nginx;/#user  nginx;/g" /etc/nginx/nginx.conf
 
 USER nginx
