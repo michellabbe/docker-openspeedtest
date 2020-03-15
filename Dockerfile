@@ -1,5 +1,5 @@
-FROM nginxinc/nginx-unprivileged:alpine
-# FROM nginxinc/nginx-unprivileged:1.17-alpine
+FROM nginxinc/nginx-unprivileged:stable-alpine
+# FROM nginxinc/nginx-unprivileged:1.16.0-alpine
 
 # Note: Even though this base image doesn't have the "official" tag (yet) on Docker hub
 #       it's owned and maintained by the official NGINX team.
