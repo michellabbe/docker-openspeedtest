@@ -1,8 +1,15 @@
 [![Docker Stars](https://img.shields.io/docker/stars/mlabbe/openspeedtest.svg)](https://hub.docker.com/r/mlabbe/openspeedtest/) [![Docker Pulls](https://img.shields.io/docker/pulls/mlabbe/openspeedtest.svg)](https://hub.docker.com/r/mlabbe/openspeedtest/)
 
-# docker: OpenSpeedTest
+# docker: OpenSpeedTest -EXPIRED-
+________________________________________
+This is a Docker image to run nginx and an old iframe version of  [OpenSpeedTest](http://openspeedtest.com/) application for benchmarking network performance.
 
-This is a Docker image to run nginx and [OpenSpeedTest](http://openspeedtest.com/) application for benchmarking network performance.
+<B>It is no longer usable</B> and will give you a <B>Network Error</B> when launching test.
+
+There is no point in maintaning this image now that there is an official one (without iframe).
+Use the official [OpenSpeedtest](https://hub.docker.com/r/openspeedtest/latest) Docker image instead.
+________________________________________
+
 
 [![OpenSpeedTest](https://raw.githubusercontent.com/michellabbe/docker-openspeedtest/master/openspeedtest.png)](http://openspeedtest.com/)
 
