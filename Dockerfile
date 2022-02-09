@@ -5,7 +5,8 @@ FROM nginxinc/nginx-unprivileged:stable-alpine
 #       it's owned and maintained by the official NGINX team.
 #       ref: https://github.com/nginxinc/docker-nginx-unprivileged/issues/19
 
-MAINTAINER Michel Labbe
+LABEL author="Michel Labbe"
+LABEL maintainer="Egor Khanko, Michel Labbe"
 
 COPY /files/openspeedtest.conf /etc/nginx/conf.d/openspeedtest.conf
 COPY /files/www/* /usr/share/nginx/html/
